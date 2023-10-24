@@ -1166,3 +1166,131 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.24-21.48.14:891][342]LogViewport: Scene viewport resized to 1863x793, mode Windowed.
 [2023.10.24-21.48.14:974][342]LogViewport: Scene viewport resized to 1860x793, mode Windowed.
 [2023.10.24-21.48.16:231][408]LogViewport: Scene viewport resized to 1908x801, mode Windowed.
+[2023.10.24-22.00.18:565][172]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2023.10.24-22.00.19:030][172]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=26284
+[2023.10.24-22.00.19:378][173]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{ba3e4957-dae9-44c5-a844-3e36c71c0c4f}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=210.76
+[2023.10.24-22.00.19:378][173]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.24-22.00.19:382][173]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.24-22.00.19:936][175]LogViewport: Scene viewport resized to 3060x1617, mode Windowed.
+[2023.10.24-22.00.20:416][175]LogViewport: Scene viewport resized to 3056x1548, mode Windowed.
+[2023.10.24-22.08.48:427][732]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.24-22.08.48:435][732]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.24-22.08.48:437][732]LogWorldPartition: Display: GenerateStreaming started...
+[2023.10.24-22.08.48:437][732]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.10.24-22.08.48:437][732]LogWorldPartition: Display: GetPartitionedActors took 15 us
+[2023.10.24-22.08.48:437][732]LogWorldPartition: Display: GenerateStreaming took 160 us
+[2023.10.24-22.08.48:437][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.24-22.08.48:438][732]PIE: New page: PIE session: ThirdPersonMap (Oct 24, 2023, 12:08:48 PM)
+[2023.10.24-22.08.48:443][732]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.10.24-22.08.48:444][732]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.10.24-22.08.48:444][732]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.24-22.08.48:448][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004764s)
+[2023.10.24-22.08.48:448][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004895s)
+[2023.10.24-22.08.48:448][732]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.24-22.08.48:448][732]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.24-22.08.48:449][732]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.10.24-22.08.48:449][732]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.24-22.08.48:449][732]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.24-22.08.48:449][732]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.10.24-22.08.48:450][732]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.10.24-22.08.48:450][732]LogWorldPartition: Display: WorldPartition initialize took 878 us (total: 351 ms)
+[2023.10.24-22.08.48:451][732]LogPlayLevel: PIE: World Init took: (0.002000s)
+[2023.10.24-22.08.48:457][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.10.24-22.08.48:458][732]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.10.24-22.08.48:458][732]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.24-22.08.48:458][732]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.24-22.08.48:458][732]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.24-22.08.48:458][732]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.24-22.08.48:458][732]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.24-22.08.48:458][732]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.24-22.08.48:458][732]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.24-22.08.48:458][732]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.24-22.08.48:459][732]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.24-22.08.48:459][732]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.24-22.08.48:459][732]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.24-22.08.48:461][732]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.24-22.08.48:488][732]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.10.24-22.08.48:488][732]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.24-22.08.48:488][732]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.24-22.08.48:488][732]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.24-22.08.48:490][732]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.10.24-22.08.48:490][732]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.10.24-22.08.48:492][732]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.10.24-22.08.48:492][732]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.10.24-22.08.48:492][732]LogInit: FAudioDevice initialized with ID 2.
+[2023.10.24-22.08.48:492][732]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2023.10.24-22.08.48:492][732]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.10.24-22.08.48:496][732]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.10.24-22.08.48:498][732]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.10.24-17.08.48
+[2023.10.24-22.08.48:498][732]LogWorld: Bringing up level for play took: 0.001670
+[2023.10.24-22.08.48:500][732]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2023.10.24-22.08.48:513][732]PIE: Server logged in
+[2023.10.24-22.08.48:514][732]PIE: Play in editor total start time 0.078 seconds.
+[2023.10.24-22.08.50:361][735]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.10.24-22.09.56:764][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.24-22.09.56:764][677]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.10.24-22.09.56:764][677]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.24-22.09.56:765][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.24-22.09.56:765][677]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.10.24-22.09.56:793][677]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.24-22.09.56:795][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.24-22.09.56:801][677]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.24-22.09.56:801][677]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.10.24-22.09.56:801][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.10.24-22.09.56:804][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.10.24-22.09.56:810][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.24-22.09.56:812][677]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.10.24-22.09.56:899][678]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.10.24-22.18.21:912][ 58]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.24-22.18.22:126][ 59]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.24-22.18.22:210][ 59]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Manny_Simple) ...
+[2023.10.24-22.19.14:313][607]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.24-22.19.15:584][640]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.10.24-22.19.15:587][640]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.24-22.19.15:587][640]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.24-22.19.17:036][640]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.10.24-22.19.17:446][641]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.24-22.19.17:494][641]LogSlate: Took 0.006013 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.10.24-22.19.17:574][642]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.24-22.27.22:136][246]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.10.24-22.27.22:154][246]LogContentBrowser: Creating deferred item: NewFolder
+[2023.10.24-22.27.22:165][247]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.10.24-22.27.27:687][410]LogContentBrowser: Attempting asset rename: NewFolder -> Enemy
+[2023.10.24-22.27.27:687][410]LogContentBrowser: End creating deferred item NewFolder
+[2023.10.24-22.27.32:660][535]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.10.24-22.27.32:680][535]LogContentBrowser: Creating deferred item: NewFolder
+[2023.10.24-22.27.32:692][536]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.10.24-22.27.35:802][628]LogContentBrowser: Attempting asset rename: NewFolder -> Bullet
+[2023.10.24-22.27.35:803][628]LogContentBrowser: End creating deferred item NewFolder
+[2023.10.24-22.27.42:401][757]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.10.24-22.27.42:426][757]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.10.24-22.27.42:433][757]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.10.24-22.27.42:464][759]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.10.24-22.27.45:330][843]LogContentBrowser: Attempting asset rename: NewBlueprint -> Enemy
+[2023.10.24-22.27.45:342][843]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.10.24-22.27.51:007][  7]LogContentBrowser: Attempting asset rename: Enemy -> BP_Enemy
+[2023.10.24-22.27.51:082][  7]LogMetaData: Removing '/Game/Enemy/BP_Enemy.BP_Enemy:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Enemy.PackageMetaData'
+[2023.10.24-22.27.51:082][  7]LogMetaData: Removing '/Game/Enemy/BP_Enemy.SKEL_BP_Enemy_C:UserConstructionScript' ref from Metadata '/Game/Enemy/Enemy.PackageMetaData'
+[2023.10.24-22.27.51:082][  7]LogMetaData: Removing '/Game/Enemy/BP_Enemy.SKEL_BP_Enemy_C' ref from Metadata '/Game/Enemy/Enemy.PackageMetaData'
+[2023.10.24-22.27.51:082][  7]LogMetaData: Removing '/Game/Enemy/BP_Enemy.BP_Enemy_C' ref from Metadata '/Game/Enemy/Enemy.PackageMetaData'
+[2023.10.24-22.27.51:082][  7]LogMetaData: Removing '/Game/Enemy/BP_Enemy.BP_Enemy:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Enemy/Enemy.PackageMetaData'
+[2023.10.24-22.27.51:082][  7]LogMetaData: Removing '/Game/Enemy/BP_Enemy.BP_Enemy:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Enemy/Enemy.PackageMetaData'
+[2023.10.24-22.27.51:082][  7]LogMetaData: Removing '/Game/Enemy/BP_Enemy.BP_Enemy:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Enemy/Enemy.PackageMetaData'
+[2023.10.24-22.27.51:087][  7]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.24-22.27.51:201][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="../../../../../../Users/yasmi/OneDrive/Documents/Unreal Projects/MyProject4/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2023.10.24-22.27.51:211][  7]LogPackageLocalizationCache: Processed 44 localized package path(s) for 1 prioritized culture(s) in 0.010655 seconds
+[2023.10.24-22.27.51:216][  7]LogSerialization: UsePackageTrailer: 'true'
+[2023.10.24-22.27.51:218][  7]LogSavePackage: Moving output files for package: /Game/Enemy/BP_Enemy
+[2023.10.24-22.27.51:218][  7]LogSavePackage: Moving '../../../../../../Users/yasmi/OneDrive/Documents/Unreal Projects/MyProject4/Saved/BP_EnemyDDC6C05745EF547EA46CBEADCA5C5727.tmp' to '../../../../../../Users/yasmi/OneDrive/Documents/Unreal Projects/MyProject4/Content/Enemy/BP_Enemy.uasset'
+[2023.10.24-22.27.51:238][  7]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms
+[2023.10.24-22.27.51:274][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.10.24-22.27.51:296][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.10.24-22.27.51:316][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.10.24-22.27.51:323][  7]AssetCheck: New page: Asset Save: BP_Enemy
+[2023.10.24-22.27.51:324][  7]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemy/BP_Enemy.BP_Enemy
+[2023.10.24-22.28.01:958][274]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.10.24-22.28.02:002][274]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.10.24-22.28.02:010][274]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.10.24-22.28.02:029][276]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.10.24-22.28.06:242][399]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Projectile
+[2023.10.24-22.28.06:247][399]LogContentBrowser: End creating deferred item NewBlueprint
