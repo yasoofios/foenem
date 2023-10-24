@@ -6,7 +6,9 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/yasmi/OneDrive/Documents/Unreal Projects/MyProject4/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset",
-				"C:/Users/yasmi/OneDrive/Documents/Unreal Projects/MyProject4/Content/Enemy/BP_Enemy.uasset"
+				"C:/Users/yasmi/OneDrive/Documents/Unreal Projects/MyProject4/Content/Enemy/BP_Enemy.uasset",
+				"C:/Users/yasmi/OneDrive/Documents/Unreal Projects/MyProject4/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/yasmi/OneDrive/Documents/Unreal Projects/MyProject4/Content/Projectile/BP_Projectile.uasset"
 			]
 		}
 	]
