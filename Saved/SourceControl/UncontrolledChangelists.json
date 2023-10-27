@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"U:/Desktop/foenem/Content/Enemy/BP_Chaser.uasset",
+				"U:/Desktop/foenem/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/A6/AWNRTE0682HJX4AIRFXPFQ.uasset",
 				"C:/Users/yasmi/OneDrive/Documents/Unreal Projects/MyProject4/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset",
 				"C:/Users/yasmi/OneDrive/Documents/Unreal Projects/MyProject4/Content/Enemy/BP_Enemy.uasset",
 				"C:/Users/yasmi/OneDrive/Documents/Unreal Projects/MyProject4/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
